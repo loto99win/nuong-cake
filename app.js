@@ -10,6 +10,12 @@ app.get('/', (req, res) => {
         purpose: 'Bình Yêu Nương',
         company: 'Bình Nương'
     })
+});
+
+app.get('/data', (req, res) => {
+    res.json({
+        message: 'Nương đáng yêu quá'
+    })
 })
 
 app.listen(port, () => {
