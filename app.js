@@ -7,7 +7,8 @@ app.get('/', (req, res) => {
         message: 'ok',
         name: 'nuong-cake',
         love: 'Cục cưng của Bình',
-        purpose: 'Bình Yêu Nương'
+        purpose: 'Bình Yêu Nương',
+        company: 'Bình Nương'
     })
 })
 
