@@ -5,7 +5,8 @@ const port = process.env.PORT || 2000;
 app.get('/', (req, res) => {
     res.json({
         message: 'ok',
-        name: 'nuong-cake'
+        name: 'nuong-cake',
+        love: 'Cục cưng của Bình'
     })
 })
 
