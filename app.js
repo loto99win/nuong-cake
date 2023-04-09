@@ -6,7 +6,8 @@ app.get('/', (req, res) => {
     res.json({
         message: 'ok',
         name: 'nuong-cake',
-        love: 'Cục cưng của Bình'
+        love: 'Cục cưng của Bình',
+        purpose: 'Bình Yêu Nương'
     })
 })
 
