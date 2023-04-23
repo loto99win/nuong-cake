@@ -16,7 +16,13 @@ app.get('/data', (req, res) => {
     res.json({
         message: 'Nương đáng yêu quá'
     })
-})
+});
+
+app.get('/foods', (req, res, next) => {
+   res.json({
+      message: 'nương-cake' 
+   });
+});
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}!`);
