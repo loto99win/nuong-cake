@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "deploy backend to github",
   "main": "app.js",
-  "repository": "https://github.com/loto99win/nuong-cake",
   "author": "Pham Hong Binh",
   "license": "MIT",
   "scripts": {

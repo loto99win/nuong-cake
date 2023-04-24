@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
         love: 'Cục cưng của Bình',
         purpose: 'Bình Yêu Nương',
         company: 'Bình Nương',
-        abc: 'ok'
+        abc: 'ok con dê',
     })
 });
 
