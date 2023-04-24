@@ -33,4 +33,7 @@ app.listen(port, () => console.log(`http://localhost:${port}`));
 
 // request response
 app.use('/foods', foodRoute);
+<<<<<<< HEAD
 app.use('/order', orderRoute);
+=======
+>>>>>>> 675d0099506e25833164b73358037ce37f4dc16e

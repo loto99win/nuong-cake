@@ -5,6 +5,7 @@
   "main": "app.js",
   "author": "Pham Hong Binh",
   "license": "MIT",
+  "repository": "https://github.com/loto99win/nuong-cake",
   "scripts": {
     "start": "node app.js"
   },
@@ -15,5 +16,8 @@
     "helmet": "^6.1.5",
     "mongoose": "^7.0.4",
     "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "18.14.2"
   }
 }
