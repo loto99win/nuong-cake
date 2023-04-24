@@ -26,9 +26,11 @@ const port = process.env.PORT || 2000;
 
 // routes
 const foodRoute = require('./src/routes/food.router');
+const orderRoute = require('./src/routes/order.router');
 
 // app listen
 app.listen(port, () => console.log(`http://localhost:${port}`));
 
 // request response
 app.use('/foods', foodRoute);
+app.use('/order', orderRoute);
