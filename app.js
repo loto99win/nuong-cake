@@ -8,7 +8,8 @@ app.get('/', (req, res) => {
         name: 'nuong-cake',
         love: 'Cục cưng của Bình',
         purpose: 'Bình Yêu Nương',
-        company: 'Bình Nương'
+        company: 'Bình Nương',
+        abc: 'ok'
     })
 });
 
