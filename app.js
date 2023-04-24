@@ -18,8 +18,8 @@ const app = express();
 // config
 app.use(helmet());
 app.use(morgan('common'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // port
 const port = process.env.PORT || 2000;
@@ -33,7 +33,4 @@ app.listen(port, () => console.log(`http://localhost:${port}`));
 
 // request response
 app.use('/foods', foodRoute);
-<<<<<<< HEAD
 app.use('/order', orderRoute);
-=======
->>>>>>> 675d0099506e25833164b73358037ce37f4dc16e
