@@ -20,6 +20,7 @@ app.use(helmet());
 app.use(morgan('common'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 // port
 const port = process.env.PORT || 2000;
